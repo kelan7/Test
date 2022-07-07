@@ -1,0 +1,7 @@
+.content {
+    display: grid;
+    grid-template-rows: 12fr;
+    grid-area: cont;
+    background-color: rgb(94, 201, 103);
+    
+}

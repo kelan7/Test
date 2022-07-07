@@ -1,0 +1,21 @@
+.logo {
+    grid-area: logo;
+
+}
+
+.logo img {
+    border-color: white;
+    height: 7em;
+    margin-left: 1em;
+    animation: spin 20s linear 0s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}

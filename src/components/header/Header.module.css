@@ -1,0 +1,7 @@
+.header {
+    display: grid;
+    grid-template-areas: "logo title";
+    grid-template-rows: 1fr;
+    grid-template-columns:  2fr 10fr;
+    grid-area: header;
+}

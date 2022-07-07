@@ -1,0 +1,36 @@
+.prof {
+    background:linear-gradient(to right bottom,white, rgb(228, 224, 224));
+    font-family: 'Buenard';
+    font-size: 1.2em;
+    max-height: initial;
+}
+
+.photo {
+    display: inline;
+    float: left;
+}
+
+.content {
+    display: inline;
+}
+.content h2{
+    font-family: 'Merienda', cursive;
+   
+}
+.content p{
+    margin: 20px;
+}
+
+.photo img {
+    margin: 20px;
+    width: 10em;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: 'Buenard';
+    src: url('../../../fonts/Buenard-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}

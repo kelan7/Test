@@ -1,0 +1,39 @@
+.sitebar {
+    grid-area: site;
+    font-family: 'Merienda', cursive;
+    font-size: 1.2em;
+
+}
+
+.sitebar ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.inactive{
+    display: block;
+        color: white;
+        text-decoration: none;
+        background: linear-gradient(to left, rgb(163, 162, 162), rgb(15, 15, 15));
+        width: 8em;
+        margin: 20px;
+        border: solid 1px black;
+        box-shadow: 10px 15px 15px rgb(163, 162, 162);
+        border-radius: 5px;
+}
+
+.active {
+    color: white;
+    display: block;
+    text-decoration: none;
+    background: linear-gradient(to left, rgb(53, 52, 52), rgb(15, 15, 15));
+    width: 8em;
+    margin: 15px;
+    border: solid 1px black;
+    box-shadow: 5px 15px 10px rgb(53, 52, 52);
+    border-radius: 5px;
+}
+
