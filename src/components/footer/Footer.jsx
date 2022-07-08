@@ -5,7 +5,7 @@ const Footer = () => {
     
     return (
         <div className={classes.footer}>
-footer cont vnbvc
+            footer cont
         </div>
     )
 }

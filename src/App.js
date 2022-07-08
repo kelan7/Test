@@ -14,7 +14,6 @@ function App() {
         <Sitebar />
         <Content />
         <Footer />
-
       </div>
     </BrowserRouter>
   );
