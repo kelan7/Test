@@ -1,7 +1,5 @@
 .content {
-    display: grid;
-    grid-template-rows: 12fr;
+   /*  display: grid; */
+   /*  grid-template-rows: 12fr; */
     grid-area: cont;
-   
-    
 }

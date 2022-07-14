@@ -6,13 +6,14 @@ import Content from './components/content/Content';
 import Footer from './components/footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 
-function App() {
+function App(props) {
+  
   return (
     <BrowserRouter>
       <div className='main_wrapper'>
         <Header />
         <Sitebar />
-        <Content />
+        <Content state={props.state} message={props.newMessage} />
         <Footer />
       </div>
     </BrowserRouter>

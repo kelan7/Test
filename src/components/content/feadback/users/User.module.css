@@ -1,0 +1,16 @@
+.wrapper {
+    background-color:aqua;
+    border-right: 1px solid rgb(116, 113, 113);
+}
+.wrapper ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.link{
+    display: block;
+    width: 3em;
+    text-decoration: none;
+    margin: 10px;
+}

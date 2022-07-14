@@ -1,0 +1,9 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 9fr 3fr;
+    background-color: blueviolet;
+}
+.message{
+    display: block;
+    border: 1px solid grey;
+}
